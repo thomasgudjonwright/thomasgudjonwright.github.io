@@ -1,0 +1,49 @@
+.title {
+	text-align: center;
+}
+
+.menu-item {
+	height: 80px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+a .bar-icon {
+	position: absolute;
+	height: 80px;
+	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
+    -moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+	transition: all 0.3s ease;
+}
+
+a .bar-icon:hover {
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+	transform:scale(1.15);
+	opacity: 0.5;
+}
+
+a + h3 {
+	font-family: calibri;
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+	font-size: 28px;
+	opacity: 0;
+	position: absolute;
+	display: inline-flex;
+	pointer-events: none;
+}
+
+a:hover + h3 {
+	opacity: 1;
+}
+
+a {
+	text-decoration-line: none;
+}
