@@ -4,11 +4,12 @@
 }
 
 .menu {
+	display: inline;
  }
 
 .menu-item {
-	height: 50px;
-	width: 94px;
+	height: 40px;
+	width: 75px;
 	text-align: center;
 	display: inline-block;
 	white-space: nowrap;
