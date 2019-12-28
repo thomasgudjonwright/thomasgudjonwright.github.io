@@ -2,9 +2,16 @@
 	text-align: center;
 }
 
+.menu {
+	display: inline;
+	position: fixed;
+	right: 40px;
+	top: 10px;
+	}
+
 .menu-item {
-	height: 80px;
-	width: 150px;
+	height: 40px;
+	width: 75px;
 	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
@@ -12,7 +19,7 @@
 
 a .bar-icon {
 	position: absolute;
-	height: 80px;
+	height: 40px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
     -ms-transition: all 0.3s ease; /* IE 9 */
