@@ -5,13 +5,14 @@ font-family: calibri;
 }
 
 .menu {
+	align-content: center;
 	display: inline;
 	position: fixed;
 	}
 
 .menu-item {
 	height: 80px;
-	width: 150px;
+	width: 80px;
 	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
@@ -19,7 +20,7 @@ font-family: calibri;
 
 a .bar-icon {
 	height: 80px;
-	width: 150px;
+	width: 80px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
