@@ -16,7 +16,6 @@
 }
 
 a .bar-icon {
-	height: 40px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
