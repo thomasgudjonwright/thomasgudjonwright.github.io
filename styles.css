@@ -7,8 +7,6 @@ font-family: calibri;
 .menu {
 	display: inline;
 	position: fixed;
-	right: 40px;
-	top: 10px;
 	}
 
 .menu-item {
