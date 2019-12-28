@@ -3,11 +3,7 @@
 	text-align: center;
 }
 
-.menu {
-	display: inline;
- }
-
-.menu-item {
+.bar-item {
 	height: 40px;
 	width: 75px;
 	text-align: center;
