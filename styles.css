@@ -18,6 +18,8 @@ font-family: calibri;
 }
 
 a .bar-icon {
+	height: 80px;
+	width: 150px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
