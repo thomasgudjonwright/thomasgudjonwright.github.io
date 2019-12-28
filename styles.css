@@ -10,7 +10,8 @@ font-family: calibri;
 	}
 
 .menu-item {
-	size: 10%;
+	height: 80px;
+	width: 150px;
 	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
