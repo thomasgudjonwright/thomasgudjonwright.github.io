@@ -1,26 +1,25 @@
-font-family: calibri;
 .title {
 	font-family: calibri;
 	text-align: center;
 }
 
 .menu {
-	align-content: center;
+	align:center;
+	align-items: center;
 	display: inline;
 	position: fixed;
 	}
 
 .menu-item {
-	height: 80px;
-	width: 80px;
+	height: 40px;
+	width: 75px;
 	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
 }
 
 a .bar-icon {
-	height: 80px;
-	width: 80px;
+	height: 40px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
