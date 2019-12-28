@@ -12,10 +12,13 @@
 	height: 40px;
 	width: 75px;
 	text-align: center;
+	display: inline-block;
 	white-space: nowrap;
 }
 
 a .bar-icon {
+	height: 50px;
+	width: 85px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
