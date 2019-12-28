@@ -4,8 +4,7 @@
 }
 
 .menu {
-	display: inline;
-	position: fixed;
+
 	}
 
 .menu-item {
@@ -13,6 +12,7 @@
 	width: 75px;
 	text-align: center;
 	display: inline-block;
+	white-space: nowrap;
 }
 
 a .bar-icon {
