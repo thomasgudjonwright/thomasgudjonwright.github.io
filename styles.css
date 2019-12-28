@@ -10,8 +10,7 @@ font-family: calibri;
 	}
 
 .menu-item {
-	height: 40px;
-	width: 75px;
+	
 	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
@@ -19,7 +18,6 @@ font-family: calibri;
 
 a .bar-icon {
 	position: absolute;
-	height: 40px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
     -ms-transition: all 0.3s ease; /* IE 9 */
