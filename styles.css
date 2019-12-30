@@ -7,11 +7,10 @@ body {
 	height: 100px;
 	width: 100%;
 	position: absolute;
-	top:0px;
-	left: 0px;
+	display: inline;
 	background-color: white;
-	z-index: 1;
-	text-align: left;
+	z-index: 0;
+	text-align: center;
 	border-bottom: thin solid rgb(105, 105, 105);
 }
 
