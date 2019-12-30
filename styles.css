@@ -9,7 +9,6 @@ body {
   	width: 70%;
 	height: 100px;
 	position: relative;
-	display: inline;
 	background-color: white;
 	z-index: 0;
 	text-align: center;
@@ -23,7 +22,6 @@ body {
 	display: inline;
 	font-size: 48px;
 	display: inline;
-	left: 30px;
 	bottom: 25px;
 }
 
