@@ -24,18 +24,22 @@ body {
 }
 
 h1 {
+	text-align: center;
+	font-family: calibri;
 	color: rgb(105, 105, 105);
 	margin-top: -10px;
 	font-size: 70px;
 }
 
 h2 {
+	font-family: calibri;
 	color: rgb(105, 105, 105);
 	font-size: 50px;
 	margin-top: -10px;
 }
 
 p {
+	font-family: calibri;
 	font-size: 20px;
 	color: rgb(85, 85, 85);
 }
