@@ -63,7 +63,7 @@ p a {
 	}
 }
 
-a .bar-item {
+a .bar-icon {
 	position: relative;
 	height: 80px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
@@ -73,7 +73,7 @@ a .bar-item {
 	transition: all 0.3s ease;
 }
 
-a .bar-item:hover {
+a .bar-icon:hover {
     -webkit-transform: rotate(360deg); /* Safari and Chrome */
     -moz-transform: rotate(360deg); /* Firefox */
     -ms-transform: rotate(360deg); /* IE 9 */
