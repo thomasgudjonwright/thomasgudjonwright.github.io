@@ -77,11 +77,11 @@ a .bar-icon {
 }
 
 a .bar-icon:hover {
-    -webkit-transform: shake 0.5s; /* Safari and Chrome */
-    -moz-transform: shake 0.5s; /* Firefox */
-    -ms-transform: shake 0.5s; /* IE 9 */
-    -o-transform: shake 0.5s; /* Opera */
-	transform: shake 0.5s;
+    -webkit-animation: shake 0.5s; /* Safari and Chrome */
+    -moz-animation: shake 0.5s; /* Firefox */
+    -ms-animation: shake 0.5s; /* IE 9 */
+    -o-animation: shake 0.5s; /* Opera */
+	animation: shake 0.5s;
 	opacity: 0.75;
 	animation-iteration-count: infinite;
 }
