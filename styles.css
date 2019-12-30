@@ -26,66 +26,11 @@ body {
 	bottom: 25px;
 }
 
-.bar-headshot {
-	margin-left: 10px;
-	margin-top: 10px;
-	height: 80%;
-	position: static;
-	display: inline;
-}
-
-.bar-name {
-	margin-left: 20px;
-	height: 60%;
-	position: relative;
-	top: -10px;
-	display: inline;
-	pointer-events: none;
-}
-
-@media only screen and (max-width: 900px)  {
-	.bar-name {
-		opacity: 0;
-	}
-}
-
-.logo {
-	position: absolute;
-	display: inline;
-	margin-top: 20px;
-}
-
-.content-box {
-	width: 75%;
-	height: 100%;
-	right: 0;
-	position: absolute;
-	background-color: lightslategray;
-}
-
-.content {
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-bottom: 2%;
-	margin-left: 2%;
-	background-color: darkslategray;
-	height: 86%;
-	padding-bottom: 1%;
-	padding-right: 1%;
-	padding-left: 1%;
-	padding-top: 1%;
-	position: relative;
-}
-
 .menu {
 	display: inline;
 	position: fixed;
 	right: 40px;
 	top: 10px;
-}
-
-.break {
-	width:10%;
 }
 
 h1 {
@@ -112,46 +57,10 @@ p a {
 	text-decoration: none;
 }
 
-.writing {
-	color: white;
-	font-size: 24px;
-	width: 72%;
-	position: relative;
-	float: left;
-}
-
-.writing  a {
-	color: lightslategray;
-}
-
-.writing-contact {
-	color: white;
-	font-size: 24px;
-	width: 100%;
-	text-align: : center;
-}
-
-.writing-contact  a {
-	color: lightslategray;
-}
-
 .title {
 	text-align: center;
 }
 
-.menu-item {
-	height: 80px;
-	width: 150px;
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-}
-
-@media only screen and (max-width: 550px) {
-	.menu-item {
-		width: 100px;
-	}
-}
 
 a .bar-icon {
 	position: absolute;
@@ -191,21 +100,3 @@ a {
 	text-decoration-line: none;
 }
 
-.pic {
-	position: relative;
-	width: 27%;
-	align-content: center;
-	float: right;
-	margin-top: 3%;
-}
-
-.popup-img {
-	width: 150px;
-	float: left;
-	margin: 10px;
-}
-
-.me {
-	position: relative;
-	width: 95%;
-}
