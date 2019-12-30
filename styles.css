@@ -4,11 +4,7 @@
 }
 
 .bar-item {
-	height: 40px;
-	width: 75px;
-	text-align: center;
-	display: inline-block;
-	white-space: nowrap;
+	
 }
 
 a .bar-icon {
