@@ -1,13 +1,76 @@
+body {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.bar {
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-color: white;
+	z-index: 1;
+	text-align: left;
+	border-bottom: thin solid rgb(105, 105, 105);
+}
+
+.bar h1 {
+	font-family: 'Lato';
+	color: rgb(105, 105, 105);
+	text-decoration: none;
+	position: relative;
+	font-size: 48px;
+	display: inline;
+	left: 30px;
+	bottom: 25px;
+}
+
+h1 {
+	font-family: century;
+	color: rgb(105, 105, 105);
+	margin-top: -10px;
+}
+
+h2 {
+	font-family: century;
+	color: rgb(105, 105, 105);
+	text-align: center;
+	font-size: 50px;
+	margin-top: -10px;
+}
+
+p {
+	font-family: garamond;
+	font-size: 20px;
+	color: rgb(85, 85, 85);
+}
+
+p a {
+	text-decoration: none;
+}
+
 .title {
-	font-family: calibri;
 	text-align: center;
 }
 
 .bar-item {
-	
+	height: 80px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+@media only screen and (max-width: 550px) {
+	.bar-item {
+		width: 100px;
+	}
 }
 
 a .bar-icon {
+	position: absolute;
+	height: 80px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
     -ms-transition: all 0.3s ease; /* IE 9 */
@@ -16,15 +79,16 @@ a .bar-icon {
 }
 
 a .bar-icon:hover {
-    -webkit-transform:scale(1.2); /* Safari and Chrome */
-    -moz-transform:scale(1.2); /* Firefox */
-    -ms-transform:scale(1.2); /* IE 9 */
-    -o-transform:scale(1.2); /* Opera */
-	transform:scale(1.2);
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+	transform:scale(1.15);
 	opacity: 0.5;
 }
 
 a + h3 {
+	font-family: century;
 	color: rgb(85, 85, 85);
 	text-decoration: none;
 	font-size: 28px;
