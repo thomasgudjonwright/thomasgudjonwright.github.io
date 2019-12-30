@@ -79,7 +79,7 @@ a .bar-icon:hover {
     -ms-transform: rotate(360deg); /* IE 9 */
     -o-transform: rotate(360deg); /* Opera */
 	transform: rotate(360deg);
-	opacity: 0.65;
+	opacity: 0.75;
 }
 
 a + h3 {
