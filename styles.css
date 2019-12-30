@@ -15,7 +15,6 @@ body {
 }
 
 .bar h1 {
-	font-family: calibri;
 	color: rgb(105, 105, 105);
 	text-decoration: none;
 	position: relative;
@@ -26,13 +25,11 @@ body {
 }
 
 h1 {
-	font-family: calibri;
 	color: rgb(105, 105, 105);
 	margin-top: -10px;
 }
 
 h2 {
-	font-family: calibri;
 	color: rgb(105, 105, 105);
 	font-size: 50px;
 	margin-top: -10px;
@@ -86,7 +83,6 @@ a .bar-icon:hover {
 }
 
 a + h3 {
-	font-family: calibri;
 	color: rgb(85, 85, 85);
 	text-decoration: none;
 	font-size: 28px;
