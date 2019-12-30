@@ -6,7 +6,7 @@ body {
 .bar {
 	margin-left: auto;
   	margin-right: auto;
-  	width: 70%;
+  	width: 100%;
 	height: 100px;
 	position: relative;
 	background-color: white;
@@ -77,12 +77,13 @@ a .bar-icon {
 }
 
 a .bar-icon:hover {
-    -webkit-transform:scale(1.15); /* Safari and Chrome */
-    -moz-transform:scale(1.15); /* Firefox */
-    -ms-transform:scale(1.15); /* IE 9 */
-    -o-transform:scale(1.15); /* Opera */
-	transform:scale(1.15);
-	opacity: 0.5;
+    -webkit-transform: shake 0.5s; /* Safari and Chrome */
+    -moz-transform: shake 0.5s; /* Firefox */
+    -ms-transform: shake 0.5s; /* IE 9 */
+    -o-transform: shake 0.5s; /* Opera */
+	transform: shake 0.5s;
+	opacity: 0.75;
+	animation-iteration-count: infinite;
 }
 
 a + h3 {
