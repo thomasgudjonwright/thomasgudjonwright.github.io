@@ -77,13 +77,12 @@ a .bar-icon {
 }
 
 a .bar-icon:hover {
-    -webkit-animation: shake 0.5s; /* Safari and Chrome */
-    -moz-animation: shake 0.5s; /* Firefox */
-    -ms-animation: shake 0.5s; /* IE 9 */
-    -o-animation: shake 0.5s; /* Opera */
-	animation: shake 0.5s;
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    -moz-transform: rotate(360deg); /* Firefox */
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera */
+	transform: rotate(360deg);
 	opacity: 0.75;
-	animation-iteration-count: infinite;
 }
 
 a + h3 {
