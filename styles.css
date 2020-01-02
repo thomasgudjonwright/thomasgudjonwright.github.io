@@ -82,6 +82,7 @@ a {
 }
 
 .page {
+	overflow-y: scroll;
 	position: fixed;
 	left: 10%;
 	top: 120px;
@@ -90,7 +91,7 @@ a {
 	border-style: solid;
 	border-width: 0px;
 	z-index: 6;
-	border-color: rgb(0, 66, 132);
+	border-color: rgb(105, 105, 105);
 	background-color: white /*#f1f1f1*/;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease; /* Firefox */
@@ -131,6 +132,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 15px;
-	border-width: medium;
+	padding: 20px;
+	border-width: thin;
 }
