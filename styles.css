@@ -11,12 +11,30 @@ body {
 }
 
 .menu-item {
+	right: 20px;
 	height: 80px;
 	width: 150px;
-	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
 }
+
+.vert_bar {
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	text-align: center;
+}
+
+.vert_bar h1 {
+	color: rgb(105, 105, 105);
+	text-decoration: none;
+	position: relative;
+	font-size: 48px;
+	bottom: 25px;
 
 .bar {
 	margin-left: auto;
