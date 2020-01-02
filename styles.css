@@ -24,7 +24,6 @@ body {
 }
 
 h1 {
-	font-family: Calibri;
 	text-align: center;
 	font-size: 70px;
 }
@@ -46,12 +45,6 @@ h2 {
 	white-space: nowrap;
 }
 
-@media only screen and (max-width: 550px) {
-	.bar-item {
-		width: 100px;
-	}
-}
-
 a .bar-icon {
 	height: 80px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
@@ -68,6 +61,7 @@ a .bar-icon:hover {
     -o-transform:scale(1.15); /* Opera */
 	transform:scale(1.15);
 	opacity: 0.5;
+}
 
 a + h3 {
 	color: rgb(85, 85, 85);
