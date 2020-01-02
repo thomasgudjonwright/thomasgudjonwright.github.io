@@ -141,7 +141,6 @@ a {
 
 .flip-card {
   background-color: transparent;
-  width: 150px;
   height: 80px;
   perspective: 1000px;
 }
@@ -157,7 +156,16 @@ a {
 }
 
 .flip-card:hover .flip-card-inner {
+	-webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    -ms-transform:rotateY(180deg); /* IE 9 */
+    -o-transform:rotateY(180deg); /* Opera */
   transform: rotateY(180deg);
+  	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -moz-transform:rotate(360deg); /* Firefox */
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform:rotate(360deg); /* Opera */
+  transform: rotate(360deg);
 }
 
 .flip-card-front, .flip-card-back {
