@@ -238,9 +238,10 @@ p {
   	width: 70%;
 }
 
-.cvlink {
+a .cvlink {
 	font-size: 28px;
 	margin-left: auto;
   	margin-right: auto;
   	width: 70%;
+  	text-align: center;
 }
