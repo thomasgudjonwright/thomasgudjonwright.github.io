@@ -46,7 +46,6 @@ h2 {
 }
 
 a .bar-icon {
-	position: absolute;
 	height: 80px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
