@@ -107,7 +107,7 @@ a {
 }
 
 .x {
-	width: 30px;
+	width: 50px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease; /* Firefox */
     -ms-transition: all 0.25s ease; /* IE 9 */
@@ -132,6 +132,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 40spx;
-	border-width: thin;
+	padding: 20px;
+	border-width: medium;
 }
