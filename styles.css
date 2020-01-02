@@ -136,11 +136,9 @@ a {
 	border-width: thin;
 }
 
-
-
-
 .flip-card {
   background-color: transparent;
+  width: 150px;
   height: 80px;
   perspective: 1000px;
 }
@@ -161,11 +159,6 @@ a {
     -ms-transform:rotateY(180deg); /* IE 9 */
     -o-transform:rotateY(180deg); /* Opera */
   transform: rotateY(180deg);
-  	-webkit-transform:rotate(360deg); /* Safari and Chrome */
-    -moz-transform:rotate(360deg); /* Firefox */
-    -ms-transform:rotate(360deg); /* IE 9 */
-    -o-transform:rotate(360deg); /* Opera */
-  transform: rotate(360deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -195,4 +188,26 @@ a {
     -ms-transition: all 0.3s ease; /* IE 9 */
     -o-transition: all 0.3s ease; /* Opera */
 	transition: all 0.3s ease;
+}
+
+.flip-icon1 {
+	height: 80px;
+	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
+    -moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+	transition: all 0.3s ease;
+}
+
+.flip-icon1:hover {
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    -ms-transform:rotateY(180deg); /* IE 9 */
+    -o-transform:rotateY(180deg); /* Opera */
+  transform: rotateY(180deg);
+  -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -moz-transform:rotate(360deg); /* Firefox */
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform:rotate(360deg); /* Opera */
+  transform: rotate(360deg);
 }
