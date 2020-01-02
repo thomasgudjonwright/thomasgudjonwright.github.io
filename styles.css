@@ -63,7 +63,17 @@ a .bar-icon:hover {
 	opacity: 0.5;
 }
 
+a .bar-icon:click {
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -moz-transform:rotate(360deg); /* Firefox */
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform:rotate(360deg); /* Opera */
+	transform:rotate(360deg);
+	opacity: 1.0;
+}
+
 a + h3 {
+	font-family: garamond;
 	color: rgb(85, 85, 85);
 	text-decoration: none;
 	font-size: 28px;
@@ -71,6 +81,10 @@ a + h3 {
 	position: absolute;
 	display: inline-flex;
 	pointer-events: none;
+}
+
+a:hover + h3 {
+	opacity: 1;
 }
 
 a {
