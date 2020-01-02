@@ -177,3 +177,12 @@ a {
   color: white;
   transform: rotateY(180deg);
 }
+
+.flip-icon {
+	height: 80px;
+	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
+    -moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+	transition: all 0.3s ease;
+}
