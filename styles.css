@@ -125,3 +125,38 @@ a {
 	transform:scale(1.25);
 	opacity: 0.7;
 }
+
+.popup {
+	position: absolute;
+	transform: rotate(180deg);
+	top: -20px;
+	left: 64px;
+}
+
+.row a img {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+	transition: all 0.3s ease;
+}
+
+.row a img:hover {
+	opacity: 0.5;
+}
+
+.popup-box {
+	width: 100%;
+}
+
+.target {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.target:target + .page {
+	width: 80%;
+	padding: 20px;
+	border-width: thin;
+}
