@@ -230,3 +230,9 @@ a {
     -o-transform:  scale(1.25); /* Opera */
   transform:  scale(1.25);
 }
+
+p {
+	font-size: 28px;
+	text-align: center;
+  	width: 70%;
+}
