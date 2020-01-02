@@ -230,19 +230,3 @@ a {
     -o-transform:  scale(1.25); /* Opera */
   transform:  scale(1.25);
 }
-
-.line {
-  width: 100px;
-  height: 10px;
-  background: blue;
-  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-  -moz-transition: width 2s; /* Firefox */
-    -ms-transition: width 2s; /* IE 9 */
-    -o-transition: width 2s; /* Opera */
-  transition: width 2s;
-  z-index: 10;
-}
-
-.line:hover {
-  width: 700px;
-}
