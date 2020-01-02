@@ -64,7 +64,7 @@ a .bar-icon:hover {
 }
 
 a + h3 {
-	color: rgb(50, 50, 50);
+	color: rgb(85, 85, 85);
 	text-decoration: none;
 	font-size: 28px;
 	opacity: 0;
@@ -83,7 +83,6 @@ a {
 
 .page {
 	position: fixed;
-	overflow-y: scroll;
 	left: 10%;
 	top: 120px;
 	bottom: 5%;
@@ -132,6 +131,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 15px;
+	padding: 8px;
 	border-width: medium;
 }
