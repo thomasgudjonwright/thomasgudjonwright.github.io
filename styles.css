@@ -208,3 +208,13 @@ a {
   transform:  scale(1.25) rotate(360deg);
   opacity: 0.5;
 }
+
+.bar {
+	margin-left: 10px;
+  	margin-top: : 10px;
+  	height: 100px;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	text-align: center;
+}
