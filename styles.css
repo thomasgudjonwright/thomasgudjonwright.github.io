@@ -10,6 +10,14 @@ body {
 	top: 10px;
 }
 
+.menu-item {
+	height: 80px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+
 .bar {
 	margin-left: auto;
   	margin-right: auto;
