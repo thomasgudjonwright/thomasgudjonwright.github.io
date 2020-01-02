@@ -60,11 +60,11 @@ a .bar-icon:hover {
     -ms-transform:scale(1.2); /* IE 9 */
     -o-transform:scale(1.2); /* Opera */
 	transform:scale(1.2);
-	opacity: 0.65;
+	opacity: 0.5;
 }
 
 a + h3 {
-	color: rgb(85, 85, 85);
+	color: rgb(50, 50, 50);
 	text-decoration: none;
 	font-size: 28px;
 	opacity: 0;
