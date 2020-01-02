@@ -55,21 +55,12 @@ a .bar-icon {
 }
 
 a .bar-icon:hover {
-    -webkit-transform:scale(1.15); /* Safari and Chrome */
-    -moz-transform:scale(1.15); /* Firefox */
-    -ms-transform:scale(1.15); /* IE 9 */
-    -o-transform:scale(1.15); /* Opera */
-	transform:scale(1.15);
-	opacity: 0.5;
-}
-
-a .bar-icon:click {
-    -webkit-transform:rotate(360deg); /* Safari and Chrome */
-    -moz-transform:rotate(360deg); /* Firefox */
-    -ms-transform:rotate(360deg); /* IE 9 */
-    -o-transform:rotate(360deg); /* Opera */
-	transform:rotate(360deg);
-	opacity: 1.0;
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+	transform:scale(1.2);
+	opacity: 0.65;
 }
 
 a + h3 {
