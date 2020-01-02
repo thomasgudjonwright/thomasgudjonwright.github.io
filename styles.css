@@ -201,9 +201,9 @@ a {
 }
 
 .flip-icon1:hover {
-  -webkit-transform:rotate(360deg) scale(1.25); /* Safari and Chrome */
-    -moz-transform:rotate(360deg) scale(1.25); /* Firefox */
-    -ms-transform:rotate(360deg) scale(1.25); /* IE 9 */
-    -o-transform:rotate(360deg) scale(1.25); /* Opera */
-  transform: rotate(360deg) scale(1.25);
+  -webkit-transform: scale(1.25) rotate(360deg); /* Safari and Chrome */
+    -moz-transform:  scale(1.25) rotate(360deg); /* Firefox */
+    -ms-transform:  scale(1.25) rotate(360deg); /* IE 9 */
+    -o-transform:  scale(1.25) rotate(360deg); /* Opera */
+  transform:  scale(1.25) rotate(360deg);
 }
