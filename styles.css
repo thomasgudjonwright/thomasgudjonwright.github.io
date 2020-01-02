@@ -81,3 +81,47 @@ a:hover + h3 {
 a {
 	text-decoration-line: none;
 }
+
+.page {
+	position: fixed;
+	overflow-y: scroll;
+	left: 10%;
+	top: 120px;
+	bottom: 5%;
+	width: 0%;
+	border-style: solid;
+	border-width: 0px;
+	z-index: 6;
+	border-color: rgb(105, 105, 105);
+	background-color: white /*#f1f1f1*/;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+	transition: all 0.5s ease;
+}
+
+.exit {
+	font-family: helvetica bold;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.x {
+	width: 15px;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease; /* Firefox */
+    -ms-transition: all 0.25s ease; /* IE 9 */
+    -o-transition: all 0.25s ease; /* Opera */
+	transition: all 0.25s ease;
+}
+
+.x:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+	transform:scale(1.25);
+	opacity: 0.7;
+}
