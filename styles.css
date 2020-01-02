@@ -192,11 +192,11 @@ a {
 
 .flip-icon1 {
 	height: 80px;
-	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
-    -moz-transition: all 0.3s ease; /* Firefox */
-    -ms-transition: all 0.3s ease; /* IE 9 */
-    -o-transition: all 0.3s ease; /* Opera */
-	transition: all 0.3s ease;
+	-webkit-transition: all 1.0s ease; /* Safari and Chrome */
+    -moz-transition: all 1.0s ease; /* Firefox */
+    -ms-transition: all 1.0s ease; /* IE 9 */
+    -o-transition: all 1.0s ease; /* Opera */
+	transition: all 1.0s ease;
 }
 
 .flip-icon1:hover {
