@@ -85,12 +85,12 @@ a {
 	position: fixed;
 	left: 10%;
 	top: 120px;
-	bottom: 5%;
+	bottom: 30%;
 	width: 0%;
 	border-style: solid;
-	border-width: 0px;
+	border-width: 2px;
 	z-index: 6;
-	border-color: rgb(105, 105, 105);
+	border-color: rgb(0, 66, 132);
 	background-color: white /*#f1f1f1*/;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease; /* Firefox */
@@ -101,8 +101,8 @@ a {
 
 .exit {
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 15px;
+	right: 15px;
 }
 
 .x {
@@ -131,6 +131,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 8px;
+	padding: 30px;
 	border-width: medium;
 }
