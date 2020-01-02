@@ -209,12 +209,18 @@ a {
   opacity: 0.5;
 }
 
-.bar {
+.hs {
 	margin-left: 10px;
   	margin-top: : 10px;
-  	height: 100px;
-	position: absolute;
-	background-color: white;
-	z-index: 1;
-	text-align: center;
+	height: 80px;
+	width: 150px;
+}
+
+.hs-icon {
+	height: 80px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+	transition: all 0.5s ease;
 }
