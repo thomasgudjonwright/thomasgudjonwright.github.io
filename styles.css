@@ -212,12 +212,12 @@ a {
 .hs {
 	margin-left: 10px;
   	margin-top: : 10px;
-	height: 80px;
-	width: 150px;
+	height: 10px;
+	width: 18px;
 }
 
 .hs-icon {
-	height: 80px;
+	height: 10px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
