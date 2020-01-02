@@ -64,7 +64,6 @@ a .bar-icon:hover {
 }
 
 a + h3 {
-	font-family: garamond;
 	color: rgb(85, 85, 85);
 	text-decoration: none;
 	font-size: 28px;
@@ -102,7 +101,6 @@ a {
 }
 
 .exit {
-	font-family: Calibri;
 	position: absolute;
 	top: 10px;
 	right: 10px;
