@@ -192,6 +192,7 @@ a {
 
 .flip-icon1 {
 	height: 80px;
+	transition: transform 1.0s;
 	-webkit-transition: all 1.0s ease; /* Safari and Chrome */
     -moz-transition: all 1.0s ease; /* Firefox */
     -ms-transition: all 1.0s ease; /* IE 9 */
@@ -200,9 +201,9 @@ a {
 }
 
 .flip-icon1:hover {
-  -webkit-transform:rotate(360deg); /* Safari and Chrome */
-    -moz-transform:rotate(360deg); /* Firefox */
-    -ms-transform:rotate(360deg); /* IE 9 */
-    -o-transform:rotate(360deg); /* Opera */
-  transform: rotate(360deg);
+  -webkit-transform:rotate(360deg) scale(1.25); /* Safari and Chrome */
+    -moz-transform:rotate(360deg) scale(1.25); /* Firefox */
+    -ms-transform:rotate(360deg) scale(1.25); /* IE 9 */
+    -o-transform:rotate(360deg) scale(1.25); /* Opera */
+  transform: rotate(360deg) scale(1.25);
 }
