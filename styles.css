@@ -8,7 +8,7 @@ body {
   	margin-right: auto;
   	width: 100%;
 	height: 100px;
-	position: relative;
+	position: absolute;
 	background-color: white;
 	z-index: -1;
 	text-align: center;
