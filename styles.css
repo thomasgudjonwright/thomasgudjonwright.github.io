@@ -173,8 +173,10 @@ a {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: transparent;
+  color: rgb(85, 85, 85);
+	text-decoration: none;
+	font-size: 28px;
   transform: rotateY(180deg);
 }
 
