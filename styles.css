@@ -102,14 +102,14 @@ a {
 }
 
 .exit {
-	font-family: helvetica bold;
+	font-family: Calibri;
 	position: absolute;
 	top: 10px;
 	right: 10px;
 }
 
 .x {
-	width: 15px;
+	width: 30px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease; /* Firefox */
     -ms-transition: all 0.25s ease; /* IE 9 */
@@ -126,29 +126,6 @@ a {
 	opacity: 0.7;
 }
 
-.popup {
-	position: absolute;
-	transform: rotate(180deg);
-	top: -20px;
-	left: 64px;
-}
-
-.row a img {
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease; /* Firefox */
-    -ms-transition: all 0.3s ease; /* IE 9 */
-    -o-transition: all 0.3s ease; /* Opera */
-	transition: all 0.3s ease;
-}
-
-.row a img:hover {
-	opacity: 0.5;
-}
-
-.popup-box {
-	width: 100%;
-}
-
 .target {
 	position: fixed;
 	top: 0;
@@ -157,6 +134,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 20px;
+	padding: 40spx;
 	border-width: thin;
 }
