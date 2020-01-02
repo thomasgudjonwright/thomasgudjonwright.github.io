@@ -132,6 +132,6 @@ a {
 
 .target:target + .page {
 	width: 80%;
-	padding: 20px;
+	padding: 15px;
 	border-width: medium;
 }
