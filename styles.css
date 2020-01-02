@@ -24,25 +24,13 @@ body {
 }
 
 h1 {
-	font-family: Calibri;
 	text-align: center;
 	font-size: 70px;
 }
 
 h2 {
-	font-family: Calibri;
 	font-size: 50px;
 	margin-top: -10px;
-}
-
-p {
-	font-family: Calibri;
-	font-size: 20px;
-	color: rgb(85, 85, 85);
-}
-
-p a {
-	text-decoration: none;
 }
 
 .title {
@@ -64,7 +52,6 @@ p a {
 }
 
 a .bar-icon {
-	position: absolute;
 	height: 80px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
