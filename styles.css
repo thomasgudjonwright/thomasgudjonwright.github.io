@@ -28,7 +28,7 @@ body {
 	height: 100px;
 	position: absolute;
 	background-color: white;
-	z-index: 1;
+	z-index: 0;
 	text-align: center;
 }
 
@@ -71,6 +71,7 @@ h2 {
 }
 
 .title {
+	z-index: 2;
 	margin-left: 150px; 
 	margin-top: -50px;
 	text-align: center;
@@ -140,7 +141,7 @@ a {
 }
 
 .hs {
-	z-index: 20;
+	z-index: 1;
 	height: 120px;
 	width: 225px;
 	margin-left: 40px;
@@ -148,7 +149,7 @@ a {
 }
 
 .hs-icon {
-	z-index: 21;
+	z-index: 2;
 	height: 120px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
