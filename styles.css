@@ -8,6 +8,7 @@ html {
 }
 
 .menu {
+	z-index: 1;
 	display: inline;
 	position: fixed;
 	right: 40px;
