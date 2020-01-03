@@ -17,8 +17,8 @@ html {
 
 .menu-item {
 	right: 20px;
-	height: 40px;
-	width: 75px;
+	height: 60px;
+	width: 112.5px;
 	text-align: center;
 	white-space: nowrap;
 }
@@ -109,7 +109,7 @@ a .bar-icon:hover {
 }
 
 a .vert-bar-icon {
-	height: 40px;
+	height: 60px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -137,6 +137,20 @@ a + h3 {
 }
 
 a:hover + h3 {
+	opacity: 1;
+}
+
+a + h4 {
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+	font-size: 28px;
+	opacity: 0;
+	position: absolute;
+	display: inline-flex;
+	pointer-events: none;
+}
+
+a:hover + h4 {
 	opacity: 1;
 }
 
