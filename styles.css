@@ -106,6 +106,24 @@ a .bar-icon:hover {
   opacity: 0.5;
 }
 
+a .vert-bar-icon {
+	height: 80px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+	transition: all 0.5s ease;
+}
+
+a .vert-bar-icon:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform:  scale(1.1); /* Firefox */
+    -ms-transform:  scale(1.1); /* IE 9 */
+    -o-transform:  scale(1.1); /* Opera */
+  transform:  scale(1.1);
+  opacity: 0.5;
+}
+
 a + h3 {
 	color: rgb(85, 85, 85);
 	text-decoration: none;
