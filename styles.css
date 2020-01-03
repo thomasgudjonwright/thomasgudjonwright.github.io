@@ -109,7 +109,7 @@ a .bar-icon:hover {
 }
 
 a .vert-bar-icon {
-	height: 80px;
+	height: 40px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
