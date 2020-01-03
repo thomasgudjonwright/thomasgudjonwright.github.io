@@ -4,6 +4,7 @@ body {
 }
 
 .menu {
+	display: inline;
 	position: fixed;
 	right: 40px;
 	top: 10px;
@@ -13,6 +14,7 @@ body {
 	right: 20px;
 	height: 80px;
 	width: 150px;
+	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
 }
