@@ -149,7 +149,7 @@ a {
 }
 
 .hs-icon {
-	z-index: 2;
+	z-index: 3;
 	height: 120px;
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
