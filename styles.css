@@ -136,6 +136,7 @@ a {
 }
 
 .hs {
+	z-index: 20;
 	height: 120px;
 	width: 225px;
 }
