@@ -71,8 +71,8 @@ h2 {
 }
 
 .title {
-	z-index: 2;
-	margin-left: 150px; 
+	z-index: 4;
+	margin-left: 130px; 
 	margin-top: -50px;
 	text-align: center;
 }
