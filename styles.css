@@ -8,233 +8,27 @@ html {
 }
 
 h1 {
-	text-align: center;
-	font-size: 70px;
-	margin-top: -40px;
+    font-size: 40;
+    color: white;
+    margin-left: 1%;
+    font-family: "Calibri";
 }
 
-h2 {
-	font-size: 50px;
+.center {
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  border: 5px solid ;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
 }
 
-h3 {
-	font-size: 35px;
-}
-
-a + h3 {
-	color: rgb(85, 85, 85);
-	text-decoration: none;
-	font-size: 28px;
-	opacity: 0;
-	position: absolute;
-	display: inline-flex;
-	pointer-events: none;
-}
-
-a:hover + h3 {
-	opacity: 1;
-}
-
-a + h4 {
-	color: rgb(85, 85, 85);
-	text-decoration: none;
-	font-size: 28px;
-	opacity: 0;
-	position: absolute;
-	display: inline-flex;
-	pointer-events: none;
-}
-
-a:hover + h4 {
-	opacity: 1;
-}
-
-a {
-	text-decoration-line: none;
-}
-
-.title {
-	z-index: 10;
-	margin-left: -50%;
-	margin-top: -222px;
-	text-align: center;
-	padding-bottom: 80px;
-}
-
-.menu {
-	z-index: 1;
-	display: inline;
-	position: fixed;
-	right: 40px;
-	top: 10px;
-}
-
-.menu-item {
-	right: 20px;
-	height: 60px;
-	width: 112.5px;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.vert_bar {
-	margin-top: 30px;
-	display: inline-block;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 100%;
-	height: 100px;
-	background-color: white;
-	z-index: 0;
-	text-align: center;
-}
-
-.vert_bar h1 {
-	color: rgb(105, 105, 105);
-	text-decoration: none;
-	position: relative;
-	font-size: 48px;
-	bottom: 25px;
-}
-
-.bar {
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 100%;
-	height: 100px;
-	background-color: white;
-	z-index: 1;
-	text-align: center;
-}
-
-.bar h1 {
-	color: rgb(105, 105, 105);
-	text-decoration: none;
-	position: relative;
-	display: inline;
-	font-size: 48px;
-	bottom: 25px;
-}
-
-.bar-item {
-	height: 80px;
-	width: 150px;
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-}
-
-a .bar-icon {
-	height: 80px;
-	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
-    -moz-transition: all 0.5s ease; /* Firefox */
-    -ms-transition: all 0.5s ease; /* IE 9 */
-    -o-transition: all 0.5s ease; /* Opera */
-	transition: all 0.5s ease;
-}
-
-a .bar-icon:hover {
-    -webkit-transform: scale(1.25); /* Safari and Chrome */
-    -moz-transform:  scale(1.25); /* Firefox */
-    -ms-transform:  scale(1.25); /* IE 9 */
-    -o-transform:  scale(1.25); /* Opera */
-  transform:  scale(1.25);
-  opacity: 0.35;
-}
-
-a .vert-bar-icon {
-	height: 60px;
-	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
-    -moz-transition: all 0.5s ease; /* Firefox */
-    -ms-transition: all 0.5s ease; /* IE 9 */
-    -o-transition: all 0.5s ease; /* Opera */
-	transition: all 0.5s ease;
-}
-
-a .vert-bar-icon:hover {
-    -webkit-transform: scale(1.1); /* Safari and Chrome */
-    -moz-transform:  scale(1.1); /* Firefox */
-    -ms-transform:  scale(1.1); /* IE 9 */
-    -o-transform:  scale(1.1); /* Opera */
-  transform:  scale(1.1);
-  opacity: 0.5;
-}
-
-.hs {
-	z-index: 3;
-	height: 80px;
-	width: 150px;
-	margin-left: 40px;
-	margin-top: 40px;
-}
-
-.hs-icon {
-	z-index: 2;
-	height: 80px;
-	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
-    -moz-transition: all 0.3s ease; /* Firefox */
-    -ms-transition: all 0.3s ease; /* IE 9 */
-    -o-transition: all 0.3s ease; /* Opera */
-	transition: all 0.3s ease;
-}
-
-.hs-icon:hover {
-  -webkit-transform: scale(1.4); /* Safari and Chrome */
-    -moz-transform:  scale(1.4); /* Firefox */
-    -ms-transform:  scale(1.4); /* IE 9 */
-    -o-transform:  scale(1.4); /* Opera */
-  transform:  scale(1.4);
-}
-
-p {
-	font-size: 28px;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 70%;
-}
-
-.cvlink {
-	font-size: 28px;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 70%;
-  	text-align: center;
-}
-
-.sub-title {
-	color: rgb(29, 71, 98);
-	margin-left: 100px;
-}
-
-.sub2-title {
-	color: rgb(49, 91, 118);
-	margin-left: 150px;
+#section1 {
+  height: 600px;
+  background-color: lightblue;
 }
 
 @media only screen and (max-width: 550px) {
-
-	.vert_bar {
-		margin-top: 10%;
-		display: inline-block;
-		margin-left: auto;
-	  	margin-right: auto;
-	  	width: 150%;
-		height: 100px;
-	}
-
-	.vert_bar h1 {
-		color: rgb(105, 105, 105);
-		font-size: 48px;
-		bottom: 25px;
-	}
-
-	.title {
-		margin-left: -30%;
-	}
-
-	a .vert-bar-icon {
-		height: 100px;
-	}
-
 
 }

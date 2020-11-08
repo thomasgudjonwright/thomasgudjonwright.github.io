@@ -1,78 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Tom Wright</title>
-  <meta name="description" content="Thomas Wright">
-  <meta name="author" content="Thomas Wright">
-  <link rel="stylesheet" href="css/styles.css?v=1.0"/>
-  <script src="https://unpkg.com/leaflet-responsive-popup@0.2.0/leaflet.responsive.popup.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.2.0/leaflet.responsive.popup.css"/>
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
-  <link rel="icon" style=" border-radius: 50%" type="image/png" href="images/tgw.PNG">
-</head>
-  <body id="home">
-    <font face="calibri">
-      <div class="hs">
-        <img src="images/circle_headshot.png" alt="headshot" class="hs-icon">
-      </div>
-      <div class="vert_bar">
-        <div class="menu">
-          <div class="menu-item">
-            <a href="#home"><img src="images/home.png" class="vert-bar-icon"></a>
-            <h3 style="margin-left: -65px; margin-top: 13px;">Home</h3>
-          </div>
-          <div class="menu-item">
-            <a href="#about_me"><img src="images/about_me.png" class="vert-bar-icon"></a>
-            <h3 style="margin-left: -90px; margin-top:13px;">About Me</h3>
-          </div>
-          <div class="menu-item">
-            <a href="#contact"><img src="images/contact.png" class="vert-bar-icon"></a>
-            <h3 style="margin-left: -77px; margin-top: 13px;">Contact</h3>
-          </div>
-        </div>
-      </div>
 
-      <h1 class="title"> | <b>Tom</b> Wright</h1>
-      <h2 id="about_me" class="sub-title">About Me</h2>
-      <h3 id="education" class="sub2-title">Education</h3>
-      <p>
-        I am pursuing a joint degree in Statistics and Computer Science at McGill University in Montreal, QC. The role data, math and analytics play in business and strategy serve as a great example of why I chose to enter this field of study. I hope to take advantage of all technology has to offer to make meaningful contributions in the private sector to benefit the public. Technology has incredible potential to benefit society and accelerate social good. I look forward to being at the forefront of these efforts.
-        <br>
-      </p>
-      <h3 id="experience" class="sub2-title">Experience</h3>
-      <p>
-        I am currently working as a Software Developer Intern for <a href="https://www.invenia.ca/" target="_blank">Invenia</a>, a company dedicated to using machine learning and optimization help solve complex problems efficiently. Through internship experience, my formal education as well as personal projects, I have developed both my technical proficiency and soft skills. For a more extensive and technical detailing of my experience, visit the <a href="#contact"><u>contact and links</u></a> section below.
-      </p>
-      <h3 id="extracurriculars" class="sub2-title">Extracurriculars</h3>
-      <p>
-        I have always loved to stay active in as many ways as possible.
-        Music has always been a passion of mine. I play guitar, piano, sing and enjoy songwriting.
-        I have played sports for as long as I can remember. Ultimate frisbee and rock climbing have become my focus, however I love hockey, golf, speed skating, running, longboarding and cycling as well!<br>
-      </p>
-      <h2 id="contact" class="sub-title">Contact & Links</h2>
-      <div class="bar">
-        <div class="bar-item">
-          <a href="mailto:thomasgudjonwright@gmail.com"><img src="images/email.png" alt="email" class="bar-icon"></a>
-          <h3 style="margin-left: -71px">Email</h3>
-        </div>
-        <div class="bar-item">
-          <a href="https://github.com/thomasgudjonwright" target="_blank"><img src="images/github.png" alt="github"  class="bar-icon"></a>
-          <h3  style="margin-left: -82px;">GitHub</h3>
-        </div>
-        <div class="bar-item">
-          <a href="https://www.linkedin.com/in/thomas-wright-b29227141/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="bar-icon"></a>
-          <h3  style="margin-left: -89px;">LinkedIn</h3>
-        </div>
-        <div class="bar-item">
-          <a href="cv.pdf" target="_blank"><img src="images/cv.png" alt="Curriculum Vitae" class="bar-icon"></a>
-          <h3  style="margin-left: -86px;">Resume</h3>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <h5 style="text-align: center; size: 12; color: rgb(29, 71, 98);"> McGill Statistics and Computer Science | English & French | Winnipeg <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a> Montreal | Go Jets Go!</h5>
-    </font>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Tom Wright</title>
+    <meta name="description" content="Thomas Wright">
+    <meta name="author" content="Thomas Wright">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+
+  <body onload="welcomeGuest()">
+    <div class="center">
+      <span style="font-family:'Calibri'; font-size:40pt;" id="welcome"></span>
+    </div>
   </body>
+  <div id="section1">
+    <h1>A bit about me</h1>
+  </div>
+  <script>
+    var i = 0;
+    var txt = "Hi, I'm Tom. Welcome to my site.";
+    var speed = 60;
+    var speed2 = 500;
+
+    function welcomeGuest() {
+      if (i < txt.length) {
+        document.getElementById("welcome").innerHTML += txt.charAt(i);
+        i++;
+        if (i==12) {
+          setTimeout(welcomeGuest, speed2);
+        }
+        else {
+          setTimeout(welcomeGuest, speed);
+        }
+      }
+    }
+    document.getElementById("welcome").style.font = "Calibri";
+    document.getElementById("welcome").style.size = 40;
+  </script>
 </html>
