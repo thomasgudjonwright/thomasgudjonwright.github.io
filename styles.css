@@ -1,10 +1,10 @@
 body {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 h1 {
@@ -14,19 +14,148 @@ h1 {
     font-family: "Calibri";
 }
 
+#headshot{
+  height: 20vw;
+  padding: 3% 3%;
+}
+
 .center {
   margin: auto;
-  margin-top: 10%;
-  width: 50%;
-  border: 5px solid ;
+  margin-top: 5%;
+  width: 65vw;
+  border: 5px solid rgb(16, 9, 74);
   padding: 10px;
   text-align: center;
   z-index: 1;
 }
 
-#section1 {
-  height: 600px;
+#section_intro {
+  margin-top: 5%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(16, 9, 74);
+}
+
+#section_intro_1 {
+  margin-left: 5%;
+  height: 35vw;
+  width: 70%;
   background-color: lightblue;
+  margin-top: -30%;
+}
+
+#section_facts {
+  margin-top: 15%;
+  margin-left: 30%;
+  height: 300px;
+  width: 70%;
+  background-color: rgb(16, 9, 74);
+}
+
+/*#section3 {
+  margin-top: 35%;
+  height: 600px;
+  width: 70%;
+  background-color: rgb(16, 9, 74);
+}*/
+
+#text1_1{
+  font-family: "Verdana";
+  font-size: 2.5vw;
+  color: white;
+  width: 64%;
+  margin-left: 35%;
+  margin-top: -25%;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+a + h3 {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+  font-size: 28px;
+  opacity: 0;
+  position: absolute;
+  display: inline-flex;
+  pointer-events: none;
+}
+
+a:hover + h3 {
+  opacity: 1;
+}
+/* ------------- Quick Links Bar: start ------------- */
+.bar {
+  width: 95%;
+  height: 2.5vw;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.bar h3 {
+  color: rgb(65, 65, 65);
+  text-decoration: none;
+  position: relative;
+  display: inline;
+  font-size: 2.5vw;
+  bottom: 25px;
+}
+
+.bar-item {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  /*white-space: nowrap;*/
+}
+
+a .bar-icon {
+  height: 7vw;;
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
+}
+
+a .bar-icon:hover {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform:  scale(1.25); /* Firefox */
+    -ms-transform:  scale(1.25); /* IE 9 */
+    -o-transform:  scale(1.25); /* Opera */
+  transform:  scale(1.25);
+  opacity: 0.35;
+}
+/* ------------- Quick Links Bar: end ------------- */
+
+.button {
+  background-color: lightblue;
+  color: white;
+  border: 2px solid lightblue;
+  padding: 80px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: -40px 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(16, 9, 74);
+  border: 2px solid rgb(16, 9, 74);
+}
+
+#fun_fact{
+  margin-top: 8%;
+  font-family: "Verdana";
+  font-size: 20pt;
+  color: white;
+  text-align: center;
 }
 
 @media only screen and (max-width: 550px) {

@@ -8,42 +8,42 @@
 
   <body onload="welcomeGuest()">
     <div class="center">
-      <span style="font-family: 'Verdana'; font-size:40pt; color: rgb(17, 22, 66);" id="welcome">Hi, I'm Tom. Welcome to my site.</span>
+      <span style="font-family: 'Verdana'; font-size: 3.5vw; color: rgb(17, 22, 66);" id="welcome"></span>
     </div>
-    <div id="section1">
+    <div id="section_intro">
     </div>
-    <div id="section1_1">
+    <div id="section_intro_1">
       <img src="images/circle_headshot.png" id="headshot">
+      <p id="text1_1">
+        I am a fourth year student at McGill University studying Statistics and Computer Science. I am currently interning as a software engineer with Invenia.
+      </p>
       <!-- ********************************************************* -->
       <div class="bar">
         <div class="bar-item">
           <a href="mailto:thomasgudjonwright@gmail.com"><img src="images/email.png" alt="email" class="bar-icon"></a>
-          <h3 style="margin-left: -75px">Email</h3>
+          <h3 class="bar-text">Email</h3>
         </div>
         <div class="bar-item">
           <a href="https://github.com/thomasgudjonwright" target="_blank"><img src="images/github.png" alt="github" class="bar-icon"></a>
-          <h3 style="margin-left: -85px;">GitHub</h3>
+          <h3 class="bar-text">GitHub</h3>
         </div>
         <div class="bar-item">
           <a href="https://www.linkedin.com/in/thomas-wright-b29227141/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="bar-icon"></a>
-          <h3 style="margin-left: -95px;">LinkedIn</h3>
+          <h3 class="bar-text">LinkedIn</h3>
         </div>
         <div class="bar-item">
           <a href="cv.pdf" target="_blank"><img src="images/cv.png" alt="Curriculum Vitae" class="bar-icon"></a>
-          <h3 style="margin-left: -86px;">Resume</h3>
+          <h3 class="bar-text">Resume</h3>
         </div>
       </div>
-      <p id="text1_1">
-        I am a fourth year student at McGill University studying Statistics and Computer Science. I am currently interning as a software developer for Invenia.
-      </p>
     <!-- ********************************************************* -->
-      <div id="section3"></div>
+      <!-- <div id="section3"></div> -->
     </div>
-    <div id="section2">
+    <div id="section_facts">
       <button onclick="genFunFact()" class="button">Generate a random fun fact!</button>
       <p id="fun_fact"></p>
     </div>
-
+    <h5 style="text-align: center; size: 25; color: rgb(16, 9, 74);"> McGill Statistics and Computer Science | Invenia Technical Computing Corporation | English & French | Winnipeg <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a> Montreal | Go Jets Go!</h5>
   <!-- ********************************************************* -->
   <!-- ********************** Javascript *********************** -->
   <!-- ********************************************************* -->
