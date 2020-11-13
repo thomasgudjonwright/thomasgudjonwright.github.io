@@ -1,6 +1,7 @@
-body {
+.body {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+  background-image: url("images/rock-texture.jpg");
 }
 
 html {
@@ -17,12 +18,25 @@ h1 {
 #headshot{
   height: 20vw;
   padding: 3% 3%;
+  -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox */
+  -ms-transition: all 0.3s ease; /* IE 9 */
+  -o-transition: all 0.3s ease; /* Opera */
+  transition: all 0.3s ease;
+}
+
+#headshot:hover {
+  -webkit-transform: scale(1.1); /* Safari and Chrome */
+  -moz-transform:  scale(1.1); /* Firefox */
+  -ms-transform:  scale(1.1); /* IE 9 */
+  -o-transform:  scale(1.1); /* Opera */
+  transform:  scale(1.1);
 }
 
 .center {
   margin: auto;
   margin-top: 5%;
-  width: 65vw;
+  width: 70vw;
   border: 5px solid rgb(4, 7, 66);
   padding: 10px;
   text-align: center;
@@ -42,6 +56,7 @@ h1 {
   width: 70%;
   background-color: rgb(65, 96, 135);
   margin-top: -30%;
+  border: 5px solid rgb(4, 7, 66);
 }
 /**/
 #section_edu {
@@ -53,7 +68,9 @@ h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  /*opacity: 0.8;*/
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
 }
 
 #section_edu_1 {
@@ -63,17 +80,21 @@ h1 {
   background-color: rgb(65, 96, 135);
   margin-top: -30%;
   z-index: 1;
+  border-top: 5px solid rgb(4, 7, 66);
+  /*border-bottom: 5px solid rgb(4, 7, 66);*/
+  border-left: 5px solid rgb(4, 7, 66);
 }
 
 #section_title {
   font-family: "Verdana";
   font-size: 30pt;
   color: white;
+  margin-top: -0.5%;
 }
 
 #edu_p {
   font-family: "Verdana";
-  font-size: 20pt;
+  font-size: 2vw;
   width: 90%;
   margin-left: -5%;
   margin-top: 6%;
@@ -93,6 +114,8 @@ h1 {
   width: 25%;
   background-color: rgb(65, 96, 135);
   margin-top: -40%;
+  border-top: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
 }
 
 #section_exp_2 {
@@ -101,10 +124,40 @@ h1 {
   width: 40%;
   background-color: rgb(65, 96, 135);
   margin-top: -25%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
+}
+/**/
+#section_ext {
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+}
+#section_ext_1 {
+  margin-left: 28%;
+  height: 14vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -11%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+  /*z-index: 1;*/
+}
+#section_ext_2 {
+  margin-left: 20%;
+  height: 14vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -33%;
+  /*z-index: 1;*/
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
 }
 /**/
 #section_facts {
-  margin-top: 15%;
+  margin-top: 25%;
   margin-left: 30%;
   height: 300px;
   width: 70%;
@@ -114,7 +167,7 @@ h1 {
 
 #text1_1{
   font-family: "Verdana";
-  font-size: 2.5vw;
+  font-size: 2vw;
   color: white;
   width: 64%;
   margin-left: 35%;
@@ -146,16 +199,18 @@ a:hover + h3 {
   z-index: 1;
   text-align: center;
   background-color: rgb(65, 96, 135);
-  margin-top: 6%;
+  margin-top: 12%;
 }
 
 .bar h3 {
+  margin-left: 4.5%;
+  margin-top: -0.1%;
   color: white;
   font-family: "Calibri";
-  position: relative;
-  display: inline;
-  font-size: 2.5vw;
-  bottom: 25px;
+  /*position: relative;*/
+  display: block;
+  font-size: 1.5vw;
+/*  bottom: 25px;*/
 }
 
 .bar-item {
@@ -183,7 +238,24 @@ a .bar-icon:hover {
   opacity: 0.35;
 }
 /* ------------- Quick Links Bar: end ------------- */
-
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(16, 9, 74);
+}
+/**/
 .button {
   background-color: rgb(65, 96, 135);
   color: white;
@@ -210,6 +282,8 @@ a .bar-icon:hover {
   font-size: 20pt;
   color: white;
   text-align: center;
+  width: 95%;
+  margin-left: 2.5%;
 }
 
 @media only screen and (max-width: 550px) {
