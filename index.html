@@ -4,11 +4,11 @@
     <meta name="description" content="Thomas Wright">
     <meta name="author" content="Thomas Wright">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="particles.js-master/dist/particles.min.js"></script>
+   <!--  <script src="particles.js-master/dist/particles.min.js"></script> -->
   </head>
 
   <body class="body">
-    <canvas class="background"></canvas>
+    <!-- <canvas class="background"></canvas> -->
     <!-- <canvas class="background1"></canvas> -->
     <div class="center">
       <span style="font-family: 'Verdana'; font-size: 4vw; color: rgb(4, 7, 66);" id="welcome"></span>
@@ -151,16 +151,16 @@
       }
     }
 
-    function canvas() {
-      Particles.init({
-        selector: '.background',
-        connectParticles: true,
-        sizeVariations: 6,
-        color: ["#040742","#040742", "#416187","#8f9296","#040742", "#FFFFFF"],
-        maxParticles: 250,
-        minDistance: 110,
-      });
-    }
+    // function canvas() {
+    //   Particles.init({
+    //     selector: '.background',
+    //     connectParticles: true,
+    //     sizeVariations: 6,
+    //     color: ["#040742","#040742", "#416187","#8f9296","#040742", "#FFFFFF"],
+    //     maxParticles: 250,
+    //     minDistance: 110,
+    //   });
+    // }
 
     function genFunFact() {
       var funFacts = [
@@ -175,6 +175,6 @@
       var index = Math.floor(Math.random() * 7);
       document.getElementById("fun_fact").innerHTML = funFacts[index];
     }
-    window.onload = canvas(); welcomeGuest();
+    window.onload = welcomeGuest();
   </script>
 </html>
