@@ -15,10 +15,10 @@
     <div id="section_intro" style="z-index: -2;">
     </div>
     <div id="section_intro_1" style="z-index: 1;">
-      <h1 id="section_title" style="margin-left: -6%;margin-top: -8%;">The Synopsis</h1>
+      <h1 id="section_title" style="margin-left: -6%; margin-top: -8%;">The Synopsis</h1>
       <img src="images/circle_headshot.png" id="headshot">
       <p id="text1_1">
-        I am a fourth year student at McGill University studying Statistics and Computer Science. I am currently working as a research intern with <a href="https://www.invenia.ca/labs/" target="_blank" class="invenia">Invenia Labs</a>.
+        I am in my final year at McGill University studying Statistics and Computer Science. I am currently a research assistant with <a href="https://davidrolnick.com/" target="_blank" class="rolnick">Prof. Dr. David Rolnick</a> and work part-time at <a href="https://www.invenia.ca/labs/" target="_blank" class="invenia">Invenia Labs</a>.
       </p>
       <div class="bar">
         <div class="bar-item">
@@ -45,7 +45,7 @@
         <li id="edu_p" style="margin-top: 6%;">BSc Double Major Statistics and Computer Science</li>
         <li id="edu_p">J W McConnell Scholar</li>
         <li id="edu_p">CS course experience includes:</li>
-        <ul style="columns: 2; margin-top: 0%; color: rgb(4, 7, 66); font-family: Verdana;">
+        <ul style="columns: 3; margin-top: 1%; margin-left: -10%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Applied Machine Learning</li>
           <li>Algorithm Design</li>
           <li>Artificial Intelligence</li>
@@ -54,16 +54,19 @@
           <li>Statistical Learning</li>
           <li>Numerical Computing</li>
           <li>Theory of Computation</li>
+          <li>Network Science</li>
         </ul>
         <!--  -->
         <li id="edu_p">Math course experience includes:</li>
-        <ul style="columns: 2; margin-top: 0%; color: rgb(4, 7, 66); font-family: Verdana;">
+        <ul style="columns: 3; margin-top: 1%; margin-left: -10%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Advanced Calculus</li>
           <li>Statistics</li>
           <li>Probability</li>
           <li>Real Analysis</li>
           <li>Abstract Algebra</li>
           <li>Linear Algebra</li>
+          <li>Sampling Methods</li>
+          <li>Applied Regression</li>
         </ul>
       </ul>
     </div>
@@ -95,8 +98,8 @@
       <img src="images/invenia.png" id="invenia_logo"></img>
       <li id="edu_p" style="margin-left: 3%;">Research Intern (May 2021 - Aug 2021)</li>
       <ul style="color: rgb(4, 7, 66); font-family: Verdana;">
-        <li style="margin-top: 1%;"> Open sourcing and refactoring internal modelling packages involving Gaussian Processes.</li>
-        <li style="margin-top: 1%;"> Engaging with the open source community to ensure contributions meet community standards on top of fulfilling the needs of the company.</li>
+        <li style="margin-top: 1%;"> Created an open source Julia package, <a href="https://github.com/invenia/LinearMixingModels.jl" target="_blank" class="lmms.jl">LinearMixingModels.jl</a>,  that implements a specific class of multi-output Gaussian Process.</li>
+        <li style="margin-top: 1%;"> Engaged with the open source community to ensure contributions met community standards on top of fulfilling the needs of the company.</li>
       </ul>
       <li id="edu_p" style="margin-left: 3%;">Software Engineer Intern (May 2020 - Dec 2020)</li>
       <ul style="color: rgb(4, 7, 66); font-family: Verdana;">
@@ -197,7 +200,7 @@
         "I can do a backflip.",
         "I like to bake cakes for my friends' and family members' birthdays."
       ]
-      var index = Math.floor(Math.random() * 7);
+      var index = Math.floor(Math.random() * funFacts.length);
       document.getElementById("fun_fact").innerHTML = funFacts[index];
     }
     window.onload = canvas(); welcomeGuest();
