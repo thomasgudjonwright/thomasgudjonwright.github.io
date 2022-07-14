@@ -79,7 +79,7 @@ li {
 }
 /**/
 #section_edu {
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 30%;
   height: 35vw;
   width: 70%;
@@ -89,6 +89,32 @@ li {
   background-size: 100% 100%;
   border-bottom: 5px solid rgb(4, 7, 66);
   border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_edu_mit {
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 35vw;
+  width: 70%;
+  background-image: url('images/mit.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_edu_mit_1 {
+  margin-left: 25%;
+  height: 25vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -30%;
+  z-index: 1;
+  border-top: 5px solid rgb(4, 7, 66);
+  /*border-bottom: 5px solid rgb(4, 7, 66);*/
   border-left: 5px solid rgb(4, 7, 66);
 }
 

@@ -27,7 +27,11 @@
       <h1 id="section_title" style="margin-left: -6%; margin-top: -8%;">The Synopsis</h1>
       <img src="images/circle_headshot.png" id="headshot">
       <p id="text1_1">
-        I am in my final year at McGill University studying Statistics and Computer Science. I am currently a research assistant at <a href="https://mila.quebec/en/" target="_blank" class="mila">Mila</a>, with <a href="https://davidrolnick.com/" target="_blank" class="rolnick">Prof. Dr. David Rolnick</a> and <a href="https://priyadonti.com/" target="_blank" class="donti">Priya Donti</a>, as well as work part-time at <a href="https://www.invenia.ca/labs/" target="_blank" class="invenia">Invenia Labs</a>.
+        I am beginning a Masters in Business Analytics at MIT Sloan. During my undergraduate degree I worked as a 
+        research assistant at <a href="https://mila.quebec/en/" target="_blank" class="mila">Mila</a>, with 
+        <a href="https://davidrolnick.com/" target="_blank" class="rolnick">Prof. Dr. David Rolnick</a> 
+        and <a href="https://priyadonti.com/" target="_blank" class="donti">Priya Donti</a>, as well as interned at 
+        <a href="https://www.invenia.ca/labs/" target="_blank" class="invenia">Invenia Labs</a>.
       </p>
       <div class="bar">
         <div class="bar-item">
@@ -48,26 +52,43 @@
         </div>
       </div>
     </div>
-    <div id="section_edu">
-      <h1 id="section_title">Education</h1>
+
+    <div id="section_edu_mit">
+      <h1 id="section_title" style="margin-top: 1%;">MIT Sloan x Operations Research Center</h1>
       <ul>
-        <li id="edu_p" style="margin-top: 6%;">BSc Double Major Statistics and Computer Science</li>
+        <li id="edu_p" style="margin-top: 6%;">Masters of Business Analytics - 2023</li>
+        <li id="edu_p">Course experience includes:</li>
+        <ul style="columns: 3; margin-top: 1%; margin-left:-5%; width: 100%; color: rgb(4, 7, 66); font-family: Verdana;">
+          <li>Analytics Tools</li>
+          <li>Analytics Edge</li>
+          <li>Optimization Methods</li>
+          <li>Machine Learning Under a Modern Optimization Lens</li>
+          <li>Analytics Lab</li>
+          <li>From Analytics to Action</li>
+        </ul>
+      </ul>
+    </div>
+    <div id="section_edu_mit_1"></div>
+    <div id="section_edu">
+      <h1 id="section_title" style="margin-top: 1%;">McGill</h1>
+      <ul>
+        <li id="edu_p" style="margin-top: 6%;">BSc Double Major Statistics and Computer Science - 2022</li>
         <li id="edu_p">J W McConnell Scholar</li>
         <li id="edu_p">CS course experience includes:</li>
-        <ul style="columns: 3; margin-top: 1%; margin-left: -10%; color: rgb(4, 7, 66); font-family: Verdana;">
+        <ul style="columns: 3; width: 90%; margin-top: 1%; margin-left: -5%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Applied Machine Learning</li>
           <li>Algorithm Design</li>
           <li>Artificial Intelligence</li>
-          <li>Database Systems</li>
+          <li>Reinforcement Learning</li>
           <li>Probabilistic Programming</li>
           <li>Statistical Learning</li>
           <li>Numerical Computing</li>
-          <li>Theory of Computation</li>
+          <li>Theory of Machine Learning</li>
           <li>Network Science</li>
         </ul>
         <!--  -->
         <li id="edu_p">Math course experience includes:</li>
-        <ul style="columns: 3; margin-top: 1%; margin-left: -10%; color: rgb(4, 7, 66); font-family: Verdana;">
+        <ul style="columns: 3; width: 90%; margin-top: 1%; margin-left: -5%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Advanced Calculus</li>
           <li>Statistics</li>
           <li>Probability</li>
@@ -75,11 +96,12 @@
           <li>Abstract Algebra</li>
           <li>Linear Algebra</li>
           <li>Sampling Methods</li>
-          <li>Applied Regression</li>
+          <li>Stochastic Processes</li>
         </ul>
       </ul>
     </div>
     <div id="section_edu_1"></div>
+
     <div id="section_exp" style="z-index: -2;"></div>
     <div id="section_exp_1">
       <h1 id="section_title">Experience</h1>
@@ -207,10 +229,11 @@
         "I have sung in Carnegie Hall in New York City and Harpa Hall in Iceland.",
         "I competed for the Dominican Republic at the World Junior Ultimate Championships.",
         "I have participated in an Icelandic Horse round-up in Iceland.",
-        "I didn't know anything about computer science before naively declaring it my major in firsr year (although I have no regrets!).",
+        "I didn't know anything about computer science before naively declaring it my major in first year (although I have no regrets!).",
         "I have a Bernedoodle named Hobbes. He is a very good boy.",
-        "I can do a backflip.",
-        "I like to bake cakes for my friends' and family members' birthdays."
+        "I can do a backflip (or could before getting knee reconstruction surgery).",
+        "I like to bake cakes for my friends' and family members' birthdays.",
+        "I have contributed to multiple open source Julia packages. It is a great language!"
       ]
       var index = Math.floor(Math.random() * funFacts.length);
       document.getElementById("fun_fact").innerHTML = funFacts[index];
