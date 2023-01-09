@@ -1,4 +1,5 @@
 // var i = 0;
+// var j = "test";
 // var txt = "Hi, I'm Tom. Welcome to my site.";
 // var speed = 80;
 // var speed2 = 700;
