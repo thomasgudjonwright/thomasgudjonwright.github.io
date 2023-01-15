@@ -227,7 +227,7 @@ li {
 }
 #section_wri_1 {
   margin-left: 5%;
-  height: 14vw;
+  height: 19vw;
   width: 70%;
   background-color: rgb(65, 96, 135);
   margin-top: -30%;
@@ -237,7 +237,7 @@ li {
 }
 #section_wri_2 {
   margin-left: 10%;
-  height: 14vw;
+  height: 8vw;
   width: 70%;
   background-color: rgb(65, 96, 135);
   margin-top: 4%;
@@ -280,7 +280,7 @@ a:hover + h3 {
   z-index: 1;
   text-align: center;
   background-color: rgb(65, 96, 135);
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
 .bar h3 {
