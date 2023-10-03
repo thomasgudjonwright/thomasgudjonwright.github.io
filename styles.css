@@ -227,7 +227,7 @@ li {
 }
 #section_wri_1 {
   margin-left: 5%;
-  height: 19vw;
+  height: 22vw;
   width: 70%;
   background-color: rgb(65, 96, 135);
   margin-top: -30%;
@@ -237,10 +237,10 @@ li {
 }
 #section_wri_2 {
   margin-left: 10%;
-  height: 8vw;
+  height: 10vw;
   width: 70%;
   background-color: rgb(65, 96, 135);
-  margin-top: 4%;
+  margin-top: 3%;
   /*z-index: 1;*/
   border-top: 5px solid rgb(4, 7, 66);
   border-right: 5px solid rgb(4, 7, 66);
