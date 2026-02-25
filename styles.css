@@ -59,6 +59,11 @@ li {
   background-color: white;
   color: rgb(4, 7, 66);
 }
+#welcome {
+  font-family: 'Verdana';
+  font-size: 4vw;
+  color: rgb(4, 7, 66);
+}
 /**/
 #section_intro {
   margin-top: 5%;
@@ -130,21 +135,21 @@ li {
   border-left: 5px solid rgb(4, 7, 66);
 }
 
-#section_title {
+.section-title {
   font-family: "Verdana";
   font-size: 3vw;
   color: white;
   margin-top: -0.5%;
 }
 
-#section_subtitle {
+.section-subtitle {
   font-family: "Verdana";
   font-size: 2vw;
   color: rgb(4, 7, 66);
   margin-top: -0.5%;
 }
 
-#edu_p {
+.edu-p {
   font-family: "Verdana";
   font-size: 1.5vw;
   width: 90%;
@@ -387,5 +392,86 @@ a:hover {
 }
 
 @media only screen and (max-width: 550px) {
+  .center {
+    width: 90%;
+    margin-top: 10%;
+  }
 
+  #welcome {
+    font-size: 7vw;
+  }
+
+  /* Reset all overlapping sections to stack vertically */
+  #section_intro, #section_intro_1,
+  #section_edu_mit, #section_edu_mit_1,
+  #section_edu, #section_edu_1,
+  #section_exp, #section_exp_1, #section_exp_2,
+  #section_ext, #section_ext_1, #section_ext_2,
+  #section_wri, #section_wri_1, #section_wri_2,
+  #section_facts, #section_facts1 {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+    height: auto !important;
+    padding-bottom: 5%;
+  }
+
+  #text1_1 {
+    font-size: 4.5vw;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  #headshot {
+    height: 45vw;
+    display: block;
+    margin: 0 auto;
+    padding: 3% 0;
+  }
+
+  .bar {
+    height: auto;
+    padding: 3% 0;
+  }
+
+  .bar-item {
+    width: 48%;
+    margin-bottom: 5%;
+  }
+
+  a .bar-icon {
+    height: 18vw;
+  }
+
+  .bar h3 {
+    font-size: 3.5vw;
+  }
+
+  li {
+    font-size: 3.5vw;
+  }
+
+  .section-title {
+    font-size: 7vw;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  .section-subtitle {
+    font-size: 5vw;
+  }
+
+  .edu-p {
+    font-size: 3.5vw;
+  }
+
+  #fun_fact {
+    font-size: 3.5vw;
+  }
+
+  .button {
+    font-size: 5vw;
+    padding: 5vw;
+  }
 }

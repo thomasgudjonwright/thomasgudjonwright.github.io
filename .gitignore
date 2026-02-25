@@ -1,1 +1,4 @@
 **/.DS_Store
+node.exe
+node_modules/
+*.CR2

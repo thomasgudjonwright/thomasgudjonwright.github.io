@@ -3,6 +3,7 @@
     <title>Tom Wright</title>
     <meta name="description" content="Thomas Wright">
     <meta name="author" content="Thomas Wright">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="particles.js-master/dist/particles.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -19,16 +20,16 @@
   <body class="body">
     <canvas class="background"></canvas>
     <div class="center">
-      <span style="font-family: 'Verdana'; font-size: 4vw; color: rgb(4, 7, 66);" id="welcome"></span>
+      <span id="welcome"></span>
     </div>
     <div id="section_intro" style="z-index: -2;">
     </div>
     <div id="section_intro_1" style="z-index: 1;">
-      <h1 id="section_title" style="margin-left: -6%; margin-top: -7%;">The Synopsis</h1>
-      <img src="images/circle_headshot.png" id="headshot">
+      <h1 class="section-title" style="margin-left: -6%; margin-top: -7%;">The Synopsis</h1>
+      <img src="images/circle_headshot.png" id="headshot" alt="Tom Wright">
       <p id="text1_1">
-        I am a Data Scientsit at <a href="https://enodatech.com/" target="_blank" class="enoda">ENODA</a>. 
-        I have a Masters in Business Analytics at MIT, focusing on Machine Learning and Optimization where I also served as Class President. 
+        I am a Machine Learning Engineer at <a href="https://www.physicsx.ai/" target="_blank">PhysicsX</a>.
+        I have a Masters in Business Analytics at MIT, focusing on Machine Learning and Optimization where I also served as Class President.
         I have a BSc in Statistics and Computer Science from McGill, with research work at <a href="https://mila.quebec/en/" target="_blank" class="mila">Mila</a>.
       </p>
       <div class="bar">
@@ -52,13 +53,13 @@
     </div>
 
     <div id="section_edu_mit">
-      <h1 id="section_title" style="margin-top: 1%;">MIT Sloan x Operations Research Center</h1>
+      <h1 class="section-title" style="margin-top: 1%;">MIT Sloan x Operations Research Center</h1>
       <ul>
-        <li id="edu_p" style="margin-top: 6%;">Masters of Business Analytics - 2023</li>
-        <li id="edu_p" style="margin-top: 2%;">Class President & Graduation Speaker</li>
-        <li id="edu_p" style="margin-top: 2%;">Research Assistant (Operations Research Center)</li>
-        <li id="edu_p" style="margin-top: 2%;">Sloan Senate and Health & Wellness committee</li>
-        <li id="edu_p">Course experience includes:</li>
+        <li class="edu-p" style="margin-top: 6%;">Masters of Business Analytics - 2023</li>
+        <li class="edu-p" style="margin-top: 2%;">Class President & Graduation Speaker</li>
+        <li class="edu-p" style="margin-top: 2%;">Research Assistant (Operations Research Center)</li>
+        <li class="edu-p" style="margin-top: 2%;">Sloan Senate and Health & Wellness committee</li>
+        <li class="edu-p">Course experience includes:</li>
         <ul style="columns: 3; margin-top: 1%; margin-left:-5%; width: 100%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Analytics Tools</li>
           <li>Advanced Analytics Edge</li>
@@ -75,12 +76,12 @@
     </div>
     <div id="section_edu_mit_1"></div>
     <div id="section_edu">
-      <h1 id="section_title" style="margin-top: 1%;">McGill</h1>
+      <h1 class="section-title" style="margin-top: 1%;">McGill</h1>
       <ul>
-        <li id="edu_p" style="margin-top: 5%;">BSc Double Major Statistics and Computer Science - 2022</li>
-        <li id="edu_p">J W McConnell Scholar</li>
-        <li id="edu_p">Research Assistant (Mila)</li>
-        <li id="edu_p">Course experience includes:</li>
+        <li class="edu-p" style="margin-top: 5%;">BSc Double Major Statistics and Computer Science - 2022</li>
+        <li class="edu-p">J W McConnell Scholar</li>
+        <li class="edu-p">Research Assistant (Mila)</li>
+        <li class="edu-p">Course experience includes:</li>
         <ul style="columns: 3; width: 90%; margin-top: 1%; margin-left: -5%; color: rgb(4, 7, 66); font-family: Verdana;">
           <li>Applied Machine Learning</li>
           <li>Algorithm Design</li>
@@ -106,8 +107,8 @@
 
     <div id="section_exp" style="z-index: -2;"></div>
     <div id="section_exp_1">
-      <h1 id="section_title">Experience</h1>
-      <h2 id="section_subtitle" style="margin-left: 5%; margin-top: -2%;">Languages</h2>
+      <h1 class="section-title">Experience</h1>
+      <h2 class="section-subtitle" style="margin-left: 5%; margin-top: -2%;">Languages</h2>
       <ul style="color: white; font-family: Verdana;">
           <li>Python</li>
           <li>Julia</li>
@@ -118,7 +119,7 @@
           <li>OCaml</li>
           <li>Matlab</li>
       </ul>
-      <h2 id="section_subtitle" style="margin-left: 5%; margin-top: -2%;">Technical</h2>
+      <h2 class="section-subtitle" style="margin-left: 5%; margin-top: -2%;">Technical</h2>
       <ul style="color: white; font-family: Verdana;">
           <li>AWS</li>
           <li>Docker</li>
@@ -127,26 +128,27 @@
       </ul>
     </div>
     <div id="section_exp_2">
-      <li id="edu_p" style="margin-left: 3%;">Data Scientist @ ENODA (Nov 2023 - present)</li>
+      <li class="edu-p" style="margin-left: 3%;">Machine Learning Engineer @ <a href="https://www.physicsx.ai/" target="_blank">PhysicsX</a> (Mar 2025 - present)</li>
+      <li class="edu-p" style="margin-left: 3%;">Data Scientist @ <a href="https://enodatech.com/" target="_blank" class="enoda">ENODA</a> (Nov 2023 - Dec 2024)</li>
       <ul style="color: rgb(4, 7, 66); font-family: Verdana;">
-        <li style="margin-top: 1%;">Designing and developing signal control algorithms combining ML and optimization to enable self-balancing grids</li>
-        <li style="margin-top: 1%;">Building data science standards, codebases, documentation and roadmaps preparing for team expansion</li>
+        <li style="margin-top: 1%;">Designed and developed signal control algorithms combining ML and optimization to enable self-balancing grids</li>
+        <li style="margin-top: 1%;">Built data science standards, codebases, documentation and roadmaps preparing for team expansion</li>
       </ul>
-      <li id="edu_p" style="margin-left: 3%;">Research Intern @ Invenia Labs (May 2021 - Aug 2021)</li>
+      <li class="edu-p" style="margin-left: 3%;">Research Intern @ Invenia Labs (May 2021 - Aug 2021)</li>
       <ul style="color: rgb(4, 7, 66); font-family: Verdana;">
         <li style="margin-top: 1%;"> Created an open source Julia package, <a href="https://github.com/invenia/LinearMixingModels.jl" target="_blank" class="lmms.jl">LinearMixingModels.jl</a>,  that implements a specific class of multi-output Gaussian Process.</li>
       </ul>
-      <li id="edu_p" style="margin-left: 3%;">Software Engineer Intern @ Invenia (May 2020 - Dec 2020)</li>
+      <li class="edu-p" style="margin-left: 3%;">Software Engineer Intern @ Invenia (May 2020 - Dec 2020)</li>
       <ul style="color: rgb(4, 7, 66); font-family: Verdana;">
         <li style="margin-top: 1%;">Developed and analyzed the performance of cloud-computing infrastructure to enable better use of AWS tools</li>
         <li style="margin-top: 1%;">Performed data analysis and built predictive models of various forms. Designed and developed a Julia package from scratch as well as the infrastructure necessary to implement these in production</li>
       </ul>
     </div>
     <div id="section_ext" style="z-index: -2;">
-      <h1 id="section_title">Extracurriculars</h1>
+      <h1 class="section-title">Extracurriculars</h1>
     </div>
     <div id="section_ext_1">
-      <h2 id="section_subtitle" style="margin-left: 5%; padding-top: 1%;">Community</h2>
+      <h2 class="section-subtitle" style="margin-left: 5%; padding-top: 1%;">Community</h2>
       <ul style="columns:1; color: white; font-family: Verdana;">
         <li><a href="https://www.reescommunity.com/" target="_blank" class="rees">REES</a> Youth Advisory Board member</li>
         <li><a href="https://hack4impact-mcgill.now.sh/" target="_blank" class="h4im">Hak4Impact McGill</a> software developer</li>
@@ -154,7 +156,7 @@
       </ul>
     </div>
     <div id="section_ext_2">
-      <h2 id="section_subtitle" style="margin-left: 5%; padding-top: 1%;">Athletic & Artistic</h2>
+      <h2 class="section-subtitle" style="margin-left: 5%; padding-top: 1%;">Athletic & Artistic</h2>
       <ul style="columns:2; color: white; font-family: Verdana;">
         <li>Ultimate Frisbee</li>
         <li>Rock Climbing</li>
@@ -168,10 +170,10 @@
     </div>
 <!-- ********************************************************* -->
     <div id="section_wri" style="z-index: -2;">
-      <h1 id="section_title">Writing</h1>
+      <h1 class="section-title">Writing</h1>
     </div>
     <div id="section_wri_1">
-      <h2 id="section_subtitle" style="margin-left: 5%; padding-top: 1%;">Papers</h2>
+      <h2 class="section-subtitle" style="margin-left: 5%; padding-top: 1%;">Papers</h2>
       <ul style="columns:1; color: white; font-family: Verdana;">
         <li><a href="Writing/WeatherData_ProbabilisticElectricLoadForecasts.pdf" target="_blank" class="cs767">The effect of weather data on probabilistic electricity load forecasts</a></li>
       </ul>
@@ -192,7 +194,7 @@
       </ul>
     </div>
     <div id="section_wri_2">
-      <h2 id="section_subtitle" style="margin-left: 5%; padding-top: 1%;">Blog Posts and misc.</h2>
+      <h2 class="section-subtitle" style="margin-left: 5%; padding-top: 1%;">Blog Posts and misc.</h2>
       <ul style="columns:2; color: white; font-family: Verdana;">
         <li><a href="https://invenia.github.io/blog/2021/01/22/navigating-first-internship/" target="_blank" class="intern">Navigating Your First Technical Internship</a></li>
         <li><a href="Writing/GP_From_Scratch.pdf" target="_blank" class="gps">Building a Gaussian Process from Scratch</a></li>
@@ -205,7 +207,7 @@
       <button onclick="genFunFact()" class="button">Generate a random fun fact!</button>
       <p id="fun_fact"></p>
     </div>
-    <h5 style="padding-top: 3%; text-align: center; size: 25; color: rgb(16, 9, 74); font-family: 'Verdana';"> McGill | Mila | MIT  <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a> Montreal <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a> Cambridge, UK <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a>  Boston <a><img src="images/arrow.png" style="height: 10px; margin-bottom: -1px;"></a>  Edinburgh</h5>
+    <h5 style="padding-top: 3%; text-align: center; size: 25; color: rgb(16, 9, 74); font-family: 'Verdana';"> McGill | Mila | MIT  <a><img src="images/arrow.png" alt="" style="height: 10px; margin-bottom: -1px;"></a> Montreal <a><img src="images/arrow.png" alt="" style="height: 10px; margin-bottom: -1px;"></a> Cambridge, UK <a><img src="images/arrow.png" alt="" style="height: 10px; margin-bottom: -1px;"></a>  Boston <a><img src="images/arrow.png" alt="" style="height: 10px; margin-bottom: -1px;"></a>  Edinburgh</h5>
 </body>
 <!-- ********************************************************* -->
 <!-- ********************** Javascript *********************** -->
@@ -251,7 +253,7 @@
         "I like to bake cakes for my friends' and family members' birthdays.",
         "I have contributed to multiple open source Julia packages.",
         "I've written more than five songs on piano and/or guitar with vocals.",
-        "I am President of the MIT Sloan Business Analytics Class of 2023."
+        "I was President of the MIT Sloan Business Analytics Class of 2023."
       ]
       var index = Math.floor(Math.random() * funFacts.length);
       document.getElementById("fun_fact").innerHTML = funFacts[index];
