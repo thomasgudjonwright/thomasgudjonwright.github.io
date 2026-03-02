@@ -1,8 +1,16 @@
+/* ======== CSS Variables ======== */
+:root {
+  --color-navy: rgb(4, 7, 66);
+  --color-navy-dark: rgb(16, 9, 74);
+  --color-steel: rgb(65, 96, 135);
+  --color-accent: #38BDF8;
+  --font-heading: 'Space Grotesk', Verdana, sans-serif;
+  --font-body: 'Inter', Verdana, sans-serif;
+}
+
 .body {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-  /*background-color: rgb(215, 220, 220);*/
-  /*background-image: url("images/rock-texture.jpg");*/
 }
 
 html {
@@ -17,16 +25,16 @@ html {
 }
 
 h1 {
-    font-size: 40;
+    font-size: 2.5vw;
     color: white;
     margin-left: 1%;
-    font-family: "Verdana";
+    font-family: var(--font-heading);
 }
 
 li {
   list-style-type: circle;
   font-size: 1.3vw;
-
+  font-family: var(--font-body);
 }
 
 #headshot{
@@ -52,24 +60,26 @@ li {
   margin: auto;
   margin-top: 5%;
   width: 70vw;
-  border: 5px solid rgb(4, 7, 66);
+  border: 5px solid var(--color-navy);
   padding: 10px;
   text-align: center;
   z-index: 1;
   background-color: white;
-  color: rgb(4, 7, 66);
+  color: var(--color-navy);
 }
+
 #welcome {
-  font-family: 'Verdana';
+  font-family: var(--font-heading);
   font-size: 4vw;
-  color: rgb(4, 7, 66);
+  color: var(--color-navy);
 }
+
 /**/
 #section_intro {
   margin-top: 5%;
   height: 35vw;
   width: 70%;
-  background-color: rgb(4, 7, 66);
+  background-color: var(--color-navy);
   z-index: -2;
   position: relative;
 }
@@ -78,10 +88,11 @@ li {
   margin-left: 5%;
   height: 32vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -30%;
-  border: 5px solid rgb(4, 7, 66);
+  border: 5px solid var(--color-navy);
 }
+
 /**/
 #section_edu {
   margin-top: 4%;
@@ -92,9 +103,9 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  border-bottom: 5px solid rgb(4, 7, 66);
-  border-top: 5px solid rgb(4, 7, 66);
-  border-left: 5px solid rgb(4, 7, 66);
+  border-bottom: 5px solid var(--color-navy);
+  border-top: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
 
 #section_edu_mit {
@@ -106,85 +117,130 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  border-bottom: 5px solid rgb(4, 7, 66);
-  border-top: 5px solid rgb(4, 7, 66);
-  border-left: 5px solid rgb(4, 7, 66);
+  border-bottom: 5px solid var(--color-navy);
+  border-top: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
 
 #section_edu_mit_1 {
   margin-left: 25%;
   height: 25vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -30%;
   z-index: 1;
-  border-top: 5px solid rgb(4, 7, 66);
-  /*border-bottom: 5px solid rgb(4, 7, 66);*/
-  border-left: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
 
 #section_edu_1 {
   margin-left: 23%;
   height: 25vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -30%;
   z-index: 1;
-  border-top: 5px solid rgb(4, 7, 66);
-  /*border-bottom: 5px solid rgb(4, 7, 66);*/
-  border-left: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
 
 .section-title {
-  font-family: "Verdana";
+  font-family: var(--font-heading);
   font-size: 3vw;
   color: white;
   margin-top: -0.5%;
 }
 
 .section-subtitle {
-  font-family: "Verdana";
+  font-family: var(--font-heading);
   font-size: 2vw;
-  color: rgb(4, 7, 66);
+  color: white;
   margin-top: -0.5%;
 }
 
 .edu-p {
-  font-family: "Verdana";
+  font-family: var(--font-body);
   font-size: 1.5vw;
   width: 90%;
   margin-left: -5%;
   margin-top: 2%;
   color: white;
 }
+
+/* ------------- Section-specific list styles ------------- */
+#section_edu_mit ul ul,
+#section_edu ul ul {
+  columns: 3;
+  margin-top: 1%;
+  margin-left: -5%;
+  width: 100%;
+  color: white;
+  font-family: var(--font-body);
+}
+
+#section_exp_1 ul,
+#section_exp_2 ul {
+  color: white;
+  font-family: var(--font-body);
+}
+
+#section_exp_2 > li {
+  list-style-type: none;
+}
+
+#section_ext_1 ul {
+  columns: 1;
+  color: white;
+  font-family: var(--font-body);
+}
+
+#section_ext_2 ul {
+  columns: 2;
+  color: white;
+  font-family: var(--font-body);
+}
+
+#section_wri_1 ul {
+  columns: 1;
+  color: white;
+  font-family: var(--font-body);
+}
+
+#section_wri_2 ul {
+  columns: 2;
+  color: white;
+  font-family: var(--font-body);
+}
+
 /**/
 #section_exp {
   position: relative;
   margin-top: 10%;
   height: 35vw;
   width: 70%;
-  background-color: rgb(4, 7, 66);
+  background-color: var(--color-navy);
 }
 
 #section_exp_1 {
   margin-left: 2%;
   height: 35vw;
   width: 25%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -40%;
-  border-top: 5px solid rgb(4, 7, 66);
-  border-right: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
+  border-right: 5px solid var(--color-navy);
 }
 
 #section_exp_2 {
   margin-left: 30%;
   height: 35vw;
   width: 55%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -27%;
-  border-bottom: 5px solid rgb(4, 7, 66);
-  border-right: 5px solid rgb(4, 7, 66);
+  border-bottom: 5px solid var(--color-navy);
+  border-right: 5px solid var(--color-navy);
 }
+
 #invenia_logo {
   padding-top: 2%;
   margin-bottom: 3%;
@@ -192,6 +248,7 @@ li {
   width: 40%;
   height: auto;
 }
+
 /**/
 #section_ext {
   position: relative;
@@ -199,28 +256,29 @@ li {
   margin-left: 30%;
   height: 35vw;
   width: 70%;
-  background-color: rgb(4, 7, 66);
+  background-color: var(--color-navy);
 }
+
 #section_ext_1 {
   margin-left: 28%;
   height: 14vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -11%;
-  border-bottom: 5px solid rgb(4, 7, 66);
-  border-left: 5px solid rgb(4, 7, 66);
-  /*z-index: 1;*/
+  border-bottom: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
+
 #section_ext_2 {
   margin-left: 20%;
   height: 14vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -33%;
-  /*z-index: 1;*/
-  border-top: 5px solid rgb(4, 7, 66);
-  border-left: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
+  border-left: 5px solid var(--color-navy);
 }
+
 /**/
 #section_wri {
   position: relative;
@@ -228,31 +286,32 @@ li {
   margin-left: 0%;
   height: 35vw;
   width: 70%;
-  background-color: rgb(4, 7, 66);
+  background-color: var(--color-navy);
 }
+
 #section_wri_1 {
   margin-left: 5%;
   height: 22vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: -30%;
-  border-bottom: 5px solid rgb(4, 7, 66);
-  border-right: 5px solid rgb(4, 7, 66);
-  /*z-index: 1;*/
+  border-bottom: 5px solid var(--color-navy);
+  border-right: 5px solid var(--color-navy);
 }
+
 #section_wri_2 {
   margin-left: 10%;
   height: 10vw;
   width: 70%;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: 3%;
-  /*z-index: 1;*/
-  border-top: 5px solid rgb(4, 7, 66);
-  border-right: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
+  border-right: 5px solid var(--color-navy);
 }
+
 /**/
 #text1_1{
-  font-family: "Verdana";
+  font-family: var(--font-body);
   font-size: 2vw;
   color: white;
   width: 60%;
@@ -262,6 +321,7 @@ li {
 
 h3 {
   font-size: 35px;
+  font-family: var(--font-heading);
 }
 
 a + h3 {
@@ -277,37 +337,36 @@ a + h3 {
 a:hover + h3 {
   opacity: 1;
 }
+
 /* ------------- Quick Links Bar: start ------------- */
 .bar {
   width: 95%;
   height: 2.5vw;
-  background-color: white;
   z-index: 1;
   text-align: center;
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   margin-top: 5%;
 }
 
 .bar h3 {
-  margin-left: 4.3%;
-  margin-top: -1%;
+  margin-top: 0.4vw;
+  margin-left: 0;
   color: white;
-  font-family: "Calibri";
-  /*position: relative;*/
+  font-family: var(--font-body);
   display: block;
   font-size: 1.5vw;
-/*  bottom: 25px;*/
 }
 
 .bar-item {
   height: 100%;
   width: 20%;
-  display: inline-block;
-  /*white-space: nowrap;*/
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a .bar-icon {
-  height: 7vw;;
+  height: 7vw;
   -webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -324,6 +383,7 @@ a .bar-icon:hover {
   opacity: 0.35;
 }
 /* ------------- Quick Links Bar: end ------------- */
+
 a:link {
   text-decoration: none;
   cursor: pointer;
@@ -339,30 +399,32 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(16, 9, 74);
+  color: var(--color-accent);
 }
+
 /**/
 .button {
-  background-color: rgb(65, 96, 135);
+  background-color: var(--color-steel);
   color: white;
-  border: 2px solid rgb(65, 96, 135);
-  padding: 5vw 5vw;
+  border: 2px solid var(--color-steel);
+  padding: 1vw 2.5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
+  font-family: var(--font-body);
   margin: -2.5vw 2.5vw;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-top: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid var(--color-navy);
   position: relative;
   z-index: 1;
 }
 
 .button:hover {
   background-color: white;
-  color: rgb(16, 9, 74);
-  border: 2px solid rgb(16, 9, 74);
+  color: var(--color-navy-dark);
+  border: 2px solid var(--color-navy-dark);
 }
 
 #section_facts {
@@ -371,8 +433,9 @@ a:hover {
   position: relative;
   height: 20vw;
   width: 70%;
-  background-color: rgb(4, 7, 66);
+  background-color: var(--color-navy);
 }
+
 #section_facts1 {
   margin-top: -20%;
   margin-left: 30%;
@@ -383,7 +446,7 @@ a:hover {
 
 #fun_fact{
   margin-top: 8%;
-  font-family: "Verdana";
+  font-family: var(--font-body);
   font-size: 1.5vw;
   color: white;
   text-align: center;
@@ -473,5 +536,18 @@ a:hover {
   .button {
     font-size: 5vw;
     padding: 5vw;
+  }
+
+  #section_edu_mit ul ul,
+  #section_edu ul ul {
+    columns: 1;
+  }
+
+  #section_ext_2 ul {
+    columns: 1;
+  }
+
+  #section_wri_2 ul {
+    columns: 1;
   }
 }

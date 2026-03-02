@@ -1,0 +1,391 @@
+.body {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+  /*background-color: rgb(215, 220, 220);*/
+  /*background-image: url("images/rock-texture.jpg");*/
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.background {
+  position: -webkit-sticky;
+  position: absolute;
+  z-index: -1;
+  margin-top: -5%;
+}
+
+h1 {
+    font-size: 40;
+    color: white;
+    margin-left: 1%;
+    font-family: "Verdana";
+}
+
+li {
+  list-style-type: circle;
+  font-size: 1.3vw;
+
+}
+
+#headshot{
+  height: 20vw;
+  padding: 3% 3%;
+  -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox */
+  -ms-transition: all 0.3s ease; /* IE 9 */
+  -o-transition: all 0.3s ease; /* Opera */
+  transition: all 0.3s ease;
+}
+
+#headshot:hover {
+  -webkit-transform: scale(1.1); /* Safari and Chrome */
+  -moz-transform:  scale(1.1); /* Firefox */
+  -ms-transform:  scale(1.1); /* IE 9 */
+  -o-transform:  scale(1.1); /* Opera */
+  transform:  scale(1.1);
+  border-radius: 28vw;
+}
+
+.center {
+  margin: auto;
+  margin-top: 5%;
+  width: 70vw;
+  border: 5px solid rgb(4, 7, 66);
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  background-color: white;
+  color: rgb(4, 7, 66);
+}
+/**/
+#section_intro {
+  margin-top: 5%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+  z-index: -2;
+  position: relative;
+}
+
+#section_intro_1 {
+  margin-left: 5%;
+  height: 32vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -30%;
+  border: 5px solid rgb(4, 7, 66);
+}
+/**/
+#section_edu {
+  margin-top: 4%;
+  margin-left: 30%;
+  height: 35vw;
+  width: 70%;
+  background-image: url('images/winter-campus-2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_edu_mit {
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 35vw;
+  width: 70%;
+  background-image: url('images/mit.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_edu_mit_1 {
+  margin-left: 25%;
+  height: 25vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -30%;
+  z-index: 1;
+  border-top: 5px solid rgb(4, 7, 66);
+  /*border-bottom: 5px solid rgb(4, 7, 66);*/
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_edu_1 {
+  margin-left: 23%;
+  height: 25vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -30%;
+  z-index: 1;
+  border-top: 5px solid rgb(4, 7, 66);
+  /*border-bottom: 5px solid rgb(4, 7, 66);*/
+  border-left: 5px solid rgb(4, 7, 66);
+}
+
+#section_title {
+  font-family: "Verdana";
+  font-size: 3vw;
+  color: white;
+  margin-top: -0.5%;
+}
+
+#section_subtitle {
+  font-family: "Verdana";
+  font-size: 2vw;
+  color: rgb(4, 7, 66);
+  margin-top: -0.5%;
+}
+
+#edu_p {
+  font-family: "Verdana";
+  font-size: 1.5vw;
+  width: 90%;
+  margin-left: -5%;
+  margin-top: 2%;
+  color: white;
+}
+/**/
+#section_exp {
+  position: relative;
+  margin-top: 10%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+}
+
+#section_exp_1 {
+  margin-left: 2%;
+  height: 35vw;
+  width: 25%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -40%;
+  border-top: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
+}
+
+#section_exp_2 {
+  margin-left: 30%;
+  height: 35vw;
+  width: 55%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -27%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
+}
+#invenia_logo {
+  padding-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  width: 40%;
+  height: auto;
+}
+/**/
+#section_ext {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+}
+#section_ext_1 {
+  margin-left: 28%;
+  height: 14vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -11%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+  /*z-index: 1;*/
+}
+#section_ext_2 {
+  margin-left: 20%;
+  height: 14vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -33%;
+  /*z-index: 1;*/
+  border-top: 5px solid rgb(4, 7, 66);
+  border-left: 5px solid rgb(4, 7, 66);
+}
+/**/
+#section_wri {
+  position: relative;
+  margin-top: 30%;
+  margin-left: 0%;
+  height: 35vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+}
+#section_wri_1 {
+  margin-left: 5%;
+  height: 22vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: -30%;
+  border-bottom: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
+  /*z-index: 1;*/
+}
+#section_wri_2 {
+  margin-left: 10%;
+  height: 10vw;
+  width: 70%;
+  background-color: rgb(65, 96, 135);
+  margin-top: 3%;
+  /*z-index: 1;*/
+  border-top: 5px solid rgb(4, 7, 66);
+  border-right: 5px solid rgb(4, 7, 66);
+}
+/**/
+#text1_1{
+  font-family: "Verdana";
+  font-size: 2vw;
+  color: white;
+  width: 60%;
+  margin-left: 35%;
+  margin-top: -30%;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+a + h3 {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+  font-size: 28px;
+  opacity: 0;
+  position: absolute;
+  display: inline-flex;
+  pointer-events: none;
+}
+
+a:hover + h3 {
+  opacity: 1;
+}
+/* ------------- Quick Links Bar: start ------------- */
+.bar {
+  width: 95%;
+  height: 2.5vw;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  background-color: rgb(65, 96, 135);
+  margin-top: 5%;
+}
+
+.bar h3 {
+  margin-left: 4.3%;
+  margin-top: -1%;
+  color: white;
+  font-family: "Calibri";
+  /*position: relative;*/
+  display: block;
+  font-size: 1.5vw;
+/*  bottom: 25px;*/
+}
+
+.bar-item {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  /*white-space: nowrap;*/
+}
+
+a .bar-icon {
+  height: 7vw;;
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
+}
+
+a .bar-icon:hover {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform:  scale(1.25); /* Firefox */
+    -ms-transform:  scale(1.25); /* IE 9 */
+    -o-transform:  scale(1.25); /* Opera */
+  transform:  scale(1.25);
+  opacity: 0.35;
+}
+/* ------------- Quick Links Bar: end ------------- */
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(16, 9, 74);
+}
+/**/
+.button {
+  background-color: rgb(65, 96, 135);
+  color: white;
+  border: 2px solid rgb(65, 96, 135);
+  padding: 5vw 5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  margin: -2.5vw 2.5vw;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-top: 5px solid rgb(4, 7, 66);
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(16, 9, 74);
+  border: 2px solid rgb(16, 9, 74);
+}
+
+#section_facts {
+  margin-top: 10%;
+  margin-left: 30%;
+  position: relative;
+  height: 20vw;
+  width: 70%;
+  background-color: rgb(4, 7, 66);
+}
+#section_facts1 {
+  margin-top: -20%;
+  margin-left: 30%;
+  position: relative;
+  height: 20vw;
+  width: 70%;
+}
+
+#fun_fact{
+  margin-top: 8%;
+  font-family: "Verdana";
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+@media only screen and (max-width: 550px) {
+
+}
